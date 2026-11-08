@@ -1,0 +1,7 @@
+{
+  "family": "dino_softmax",
+  "l2": false,
+  "augmentation": false,
+  "scaling": "StandardScaler",
+  "epochs": 36
+}

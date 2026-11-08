@@ -1,0 +1,39 @@
+{
+  "classes": [
+    "Chinee apple",
+    "Lantana",
+    "Snake weed"
+  ],
+  "seed": 42,
+  "original_images": 3000,
+  "train_images": 1800,
+  "validation_images": 600,
+  "test_images": 600,
+  "dino_model": "dinov2_vits14",
+  "dino_input_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "dino_input_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "augmented_views_per_train_image": 2,
+  "image_hash": "1049a18bdb46d73513695420e04e820bdbc4b0a8d3dfc4a4f73d2fe1de492d48",
+  "selected_ids": [
+    "softmax_raw_original"
+  ],
+  "versions": {
+    "tensorflow": "2.21.0",
+    "torch": "2.14.1+cu130",
+    "torchvision": "0.29.1+cu130"
+  },
+  "dino_input_size": [
+    224,
+    224
+  ],
+  "dino_color_mode": "RGB",
+  "dino_rescale": 0.00392156862745098
+}

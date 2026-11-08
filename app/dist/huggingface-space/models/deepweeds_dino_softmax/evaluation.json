@@ -1,0 +1,88 @@
+{
+  "modele": "DINOv2 ViT-S/14 + Softmax",
+  "notebook": "DeepWeeds_Top3_Normalization_Augmentation.ipynb",
+  "variante": "softmax_raw_original",
+  "validation": {
+    "accuracy": 94.67,
+    "f1_macro": 94.67,
+    "images": 600,
+    "par_classe": {
+      "Chinee Apple": {
+        "precision": 94.44,
+        "rappel": 93.5,
+        "f1": 93.97
+      },
+      "Lantana": {
+        "precision": 97.49,
+        "rappel": 97.0,
+        "f1": 97.24
+      },
+      "Snake Weed": {
+        "precision": 92.12,
+        "rappel": 93.5,
+        "f1": 92.8
+      }
+    },
+    "matrice_confusion": [
+      [
+        187,
+        0,
+        13
+      ],
+      [
+        3,
+        194,
+        3
+      ],
+      [
+        8,
+        5,
+        187
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 92.5,
+    "f1_macro": 92.51,
+    "images": 600,
+    "par_classe": {
+      "Chinee Apple": {
+        "precision": 92.31,
+        "rappel": 90.0,
+        "f1": 91.14
+      },
+      "Lantana": {
+        "precision": 96.45,
+        "rappel": 95.0,
+        "f1": 95.72
+      },
+      "Snake Weed": {
+        "precision": 88.94,
+        "rappel": 92.5,
+        "f1": 90.69
+      }
+    },
+    "matrice_confusion": [
+      [
+        180,
+        2,
+        18
+      ],
+      [
+        5,
+        190,
+        5
+      ],
+      [
+        10,
+        5,
+        185
+      ]
+    ]
+  },
+  "verification": {
+    "empreinte_images": true,
+    "ecart_scaler_moyenne": 1.0570985937707889e-05,
+    "ecart_probabilites_keras_numpy": 1.1324882507324219e-06
+  }
+}
